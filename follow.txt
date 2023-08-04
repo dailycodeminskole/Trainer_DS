@@ -1,0 +1,131 @@
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is FE9B-4E35
+
+ Directory of C:\Users\RAHUL\Documents\OnePython\10. JAN_DS_9.30PM\JAN_DS_8AM_8PM
+
+29-05-2023  20:41    <DIR>          .
+29-05-2023  20:41    <DIR>          ..
+29-05-2023  17:37    <DIR>          .ipynb_checkpoints
+07-02-2023  20:33             1,112 01_CourseIntro.py
+08-02-2023  20:39             2,084 02_Variables.py
+09-02-2023  20:45             2,195 03_Strings_1.py
+10-02-2023  20:46             3,430 04_Strings_2.py
+14-02-2023  20:10             2,492 05_Strings_3.py
+15-02-2023  20:05             2,237 06_String_Methods.py
+15-02-2023  20:40             1,673 07_Lists_01.py
+17-02-2023  19:59             3,109 08_Lists_02.py
+17-02-2023  20:40             2,782 09_Tuples.py
+20-02-2023  20:44             2,335 10_Conditional_01.py
+21-02-2023  20:39             2,013 11_IF_ELSE.py
+23-02-2023  19:58             2,068 12_ELIF.py
+03-03-2023  08:40             2,468 13_FOR_LOOP.py
+25-02-2023  01:14             1,540 14_FOR_LOOP2.py
+28-02-2023  08:26             1,152 15_WHILE.py
+28-02-2023  09:00             1,385 16_WHILE_SETS.py
+01-03-2023  09:15             1,997 17_WHILE_METHOSD.py
+05-03-2023  23:45             2,558 18_SET_OPERATIONS_DICT.py
+12-04-2023  15:38             2,589 19_DICTIONARY.py
+07-03-2023  09:16             3,294 20_DICTIONARY_METHODS.py
+20-03-2023  20:57             1,746 21_LIST_COMPREHENSION.py
+13-03-2023  18:58             7,450 22_Functions_Basics.ipynb
+10-03-2023  22:17            67,780 23_Functions_Types.ipynb
+13-03-2023  21:32             8,974 24_Functions_scope.ipynb
+14-03-2023  20:52             8,573 25_Functions_lambda.ipynb
+15-03-2023  20:49             7,399 26_Functions_Misc.ipynb
+16-03-2023  20:20               135 27_EH.py
+16-03-2023  20:52            12,601 27_EXCEPTION HANDLING.ipynb
+18-03-2023  08:53             5,396 28_CUSTOM_EXCEPTIONS.ipynb
+20-03-2023  21:07            10,900 29_OS_FileHandling.ipynb
+21-03-2023  21:05           382,089 30_OOP_Intro.ipynb
+22-03-2023  21:12            10,526 31_OOP_Attributes.ipynb
+23-03-2023  20:49           229,418 32_OOP_Methods.ipynb
+24-03-2023  20:57             9,479 33_OOP_INHERITANCE.ipynb
+27-03-2023  20:54            10,513 34_OOP_Encapsulation.ipynb
+28-03-2023  21:09            11,333 35_OOP_Encap_Polymorphism.ipynb
+29-03-2023  20:56            10,199 36_OOP_Doubts.ipynb
+30-03-2023  22:33            14,647 37_Working with Modules Libraries.ipynb
+31-03-2023  12:47             8,177 38_INTRO_NUMPY.ipynb
+13-04-2023  21:40            14,162 39_NUMPY_Attributes_ArrayCreation.ipynb
+13-04-2023  21:40             9,319 40_2DArray.ipynb
+15-04-2023  10:57            16,363 41_Indexing_Slicing.ipynb
+04-04-2023  21:11            15,471 42_Slicing_Masking_Universal.ipynb
+18-04-2023  07:41            22,561 43_Agg_LogicalFunctions.ipynb
+06-04-2023  00:04            14,691 44_Broadcasting_Split_copies.ipynb
+07-04-2023  08:49            98,530 45_Numpy_Proj.ipynb
+09-04-2023  09:21            34,592 46_Intro_to_Pandas.ipynb
+10-04-2023  20:39            25,608 47_Columns_in_Pandas.ipynb
+12-04-2023  21:02            42,394 48_Columns_in_Pandas.ipynb
+13-04-2023  20:50            13,007 49_Rows_in_Pandas.ipynb
+14-04-2023  20:40            70,785 50_EditingRows.ipynb
+18-04-2023  08:20            19,924 51_Merge_Join_Concat.ipynb
+18-04-2023  08:52            22,006 52_Merging.ipynb
+20-04-2023  08:56            45,204 53_Working_on_dataset.ipynb
+26-04-2023  08:43           679,587 54_PANDAS_IPL.ipynb
+27-04-2023  09:03           189,604 55_Groupby.ipynb
+28-04-2023  20:48            63,631 56_Pivot_pandas.ipynb
+01-05-2023  20:51           212,585 57_Matplotlib_Basics.ipynb
+02-05-2023  21:01           275,425 58_ENRICHHING_THE_CHART.ipynb
+04-05-2023  20:00           105,609 59_Types_of_Plots.ipynb
+04-05-2023  20:51           396,724 60_Types_of_Plots_Subplots.ipynb
+22-05-2023  07:32           520,692 61_Seaborn_Plots.ipynb
+17-05-2023  08:55         1,273,905 62_Seaborn_Plots2.ipynb
+26-05-2023  06:07            35,971 63_Regular Expression.ipynb
+29-05-2023  20:41            37,289 64_RegEx_with_Python.ipynb
+19-04-2023  20:05                22 a.csv
+07-04-2023  00:40             8,223 abc.jpg
+11-04-2023  21:40               151 adder.py
+13-05-2023  23:27    <DIR>          Assignment
+19-04-2023  20:05                22 b.csv
+01-05-2023  20:26            15,678 Basic-line.jpg
+25-04-2023  08:20            20,412 city_team.csv
+01-05-2023  20:50            18,278 Cube-fig.jpg
+18-03-2023  23:06                59 d1.txt
+01-05-2023  17:02           999,117 DATA VIZ  MATPLOTLIB SCALER .ipynb
+21-05-2023  23:45             8,833 data.txt
+09-05-2023  21:00             8,296 Deciding the Plot.xlsx
+20-04-2023  16:33        15,442,270 deliveries.csv
+12-04-2023  15:38             1,426 fitbit.csv
+06-04-2023  08:33               914 fitbit.txt
+13-05-2023  23:27    <DIR>          Folder1
+13-05-2023  23:27    <DIR>          Folder2
+13-05-2023  23:27    <DIR>          Folder3
+29-05-2023  23:28                 0 follow.txt
+20-04-2023  16:20           158,449 Fortune 500 2017 - Fortune 500.csv
+27-04-2023  08:59            41,813 Fortune 500 Companies US error.csv
+31-12-2022  20:25            83,785 gapminder_full.csv
+12-04-2023  15:38            83,790 gapminder_full_demo.csv
+31-12-2022  20:25           734,079 gapminder_tidy.csv
+17-04-2023  23:48           438,096 imdb_top_1000.csv
+18-04-2023  14:30           117,094 matches.csv
+29-04-2023  21:52           886,133 MATPLOTLIB SCALER .ipynb
+13-05-2023  23:27    <DIR>          Mock interview
+29-04-2023  21:38            16,882 my_plot1.jpg
+04-04-2023  23:39            18,112 NUMPY Proj.ipynb
+07-04-2023  08:26             3,486 one.jpg
+20-04-2023  20:22           162,158 PANDAS_DELIVERY.ipynb
+20-04-2023  16:32           197,870 PANDAS_FORTUNE500.ipynb
+20-04-2023  16:36           470,549 PANDAS_MATCHES.ipynb
+28-04-2023  18:33            55,132 PANDAS_PIVOT_JOSE.ipynb
+27-04-2023  20:41            19,344 Pivot_food.xlsx
+13-05-2023  23:27    <DIR>          Placement cell
+13-05-2023  23:27    <DIR>          Post read
+13-05-2023  23:27    <DIR>          Pre read
+13-05-2023  23:27    <DIR>          Projects
+29-05-2023  17:25             8,918 Python_basics.xlsx
+26-05-2023  20:44           340,350 RegEx Notes.docx
+21-05-2023  23:30             4,196 RegEx_notes.txt
+29-05-2023  17:56            50,251 REGEX_SCALAR.ipynb
+20-04-2023  08:30               489 result.csv
+28-04-2023  18:10             1,323 Sales_Funnel_CRM.csv
+09-05-2023  20:43         1,305,239 SEABORN_SCALAR.ipynb
+01-05-2023  12:20            15,678 Simple-chart.jpg
+13-05-2023  23:27    <DIR>          Slides in class room
+23-05-2023  20:51               260 String example.txt
+18-04-2023  15:34             1,917 students.csv
+09-05-2023  19:17             8,982 STUDENTS_DS_MINSKOLE.xlsx
+01-03-2023  08:43                32 tempCodeRunnerFile.py
+13-05-2023  23:28            75,792 Untitled.ipynb
+19-05-2023  08:50             1,476 Untitled1.ipynb
+09-04-2023  09:17    <DIR>          __pycache__
+             110 File(s)     26,942,863 bytes
+              14 Dir(s)  32,246,779,904 bytes free

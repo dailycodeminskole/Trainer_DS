@@ -1,0 +1,201 @@
+abcdefghijklmnopqurtuvwxyz 
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+one_call
+1234567890
+
+Ha HaHa
+
+abcdef
+[{()\^$|?**
+
+minskole.com
+
+321-555-4321 
+123.555.1234
+823.555.1234
+923.555.1234
+
+123456789000
+
+Mr. Varma
+
+Mr Anant 
+Ms Nandini
+Mrs. Singh
+Mr. T
+
+
+
+
+
+
+> serch for abc
+Case sensitive 
+order is important
+
+> serch for . period
+highlighted all the data 
+. stands for everything 
+
+then how to find the actual .
+we use \. to literally find the .
+
+> serach for \
+\ is a METACHARACTER 
+we use \\ to literally find the \
+
+> find minskole.com in the string
+minskole.com
+this will also highlioght pattern with any char inplace of . 
+eg  minskole-com will also be highlighted
+
+the correct way is 
+minskole\.com
+
+>> METACHARACTER 
+they don match themselves 
+but only signal for a special
+
+>> Special Sequences METACHARACTER 
+A special sequence is a \ followed by one of the characters in the list below, and has a special meaning:
+
+	
+\d	Returns a match where the string contains digits (numbers from 0-9)	"\d"	
+\D	Returns a match where the string DOES NOT contain digits	"\D"	
+\s	Returns a match where the string contains a white space character	"\s"	
+\S	Returns a match where the string DOES NOT contain a white space character	"\S"	
+\w	Returns a match where the string contains any word characters (characters from a to Z, digits from 0-9, and the underscore _ character)	"\w"	
+\W	Returns a match where the string DOES NOT contain any word characters	"\W"	
+\Z	Returns a match if the specified characters are at the end of the string	"Spain\Z"
+\A	Returns a match if the specified characters are at the beginning of the string	"\AThe"	
+
+
+They will search  for one character only 
+
+> finding a digit
+\d
+> finding a non-digit
+\D
+> finding  word char
+\w
+> finding non word char
+\W
+
+
+> finding spaces,tabs,newline
+\s
+
+
+>> ANCHORS METACHARACTER
+
+\b	Returns a match where the specified characters are at the beginning or at the end of a word
+	(the "r" in the beginning is making sure that the string is being treated as a "raw string")	r"\bain" r"ain\b"	
+\B	Returns a match where the specified characters are present, but NOT at the beginning (or at the end) of a word
+	(the "r" in the beginning is making sure that the string is being treated as a "raw string")	r"\Bain"
+	r"ain\B"
+
+^	Starts with
+$	Ends with
+
+
+> checking the border condition
+1	2 3 
+Ha HaHa
+
+\bHa 
+we will get only 1st and 2nd as the output
+
+Ha\b
+we will get only 1st and 3rd Ha as the output
+
+
+\BHa
+we will get only 3rd Ha as the output
+
+> Look for a pattern at the beginning or at the end of the screen
+> finding a pettern beginning with abc
+^abc
+we will get the 1s abc only
+
+> finding T at the end of the string
+T$
+
+
+
+>> Exrecise finding the phone numbers
+
+\d will match each digit separately , without - or .
+we need phone numbers in one search
+
+\d\d\d.\d\d\d.\d\d\d\d
+
+we will get one single pattern
+but this is not the perfect soln
+123456789000 will also be matched even its not a phone numbers
+
+so we can use 
+\d\d\d-\d\d\d-\d\d\d\d or
+\d\d\d\.\d\d\d\.\d\d\d\d
+
+we have now a character set i.e - or .
+
+we can use characterset []
+\d\d\d[-\.]\d\d\d[-\.]\d\d\d\d
+
+this also works , since . is inside the []
+\d\d\d[-.]\d\d\d[-.]\d\d\d\d
+
+
+> [abc] will match for a or b or c
+
+> we can use to find a range of char
+[1-6] from 1 to 6
+[a-z] from a to z
+[a-zA-Z0-9] is same as \w
+
+> looking for a character not in the range
+to negate the whole range/thing
+[^a-z]
+
+^ inside a [] will negate the range
+
+
+> we want numbers starting from 8 or 9 only
+
+[89]\d\d[-.]\d\d\d[-.]\d\d\d\d
+
+this will search for 8 or 9 as the 1st digit
+
+
+
+>> QUANTIFIERS
+
+*	Zero or more occurrences	"he.*o"	
++	One or more occurrences	"he.+o"	
+?	Zero or one occurrences	"he.?o"	
+{}	Exactly the specified number of occurrences	"he.{2}o"
+
+
+> optimising the solution using quantifiers
+
+[89]\d{2}[-.]\d{3}[-.]\d{4}
+
+>> Exrecise finding the names
+
+M[rs][.s]?\.?\s[A-Z][a-z]*
+
+but still all names are not highlighted 
+so we need to use grouping 
+
+
+>> GROUPING
+
+M(r|s|rs)\.?\s[A-Z][a-z]*
+
+
+
+
+
+
+
